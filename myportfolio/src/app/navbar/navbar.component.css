@@ -1,0 +1,7 @@
+.navbar {
+  background-color: black;
+}
+.navbar .nav-ul {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=navbar.component.css.map */
