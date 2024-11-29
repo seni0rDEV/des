@@ -1,7 +1,31 @@
+// navbar style 
 .navbar {
   background-color: black;
+  padding: 1rem;
+
+  .nav-div {
+    margin-left: 15rem;
+  }
   .nav-ul {
     display: flex;
+     list-style: none;
      justify-content:center;
+  }
+  .nav-ul li a{
+   color: white;
+   padding: 1rem;
+   text-decoration: none;
+   font-size: 1.3rem;
+  }
+  .vertical-line {
+    display: inline-block;
+    height: 1.7rem;
+    width: 0.14rem;
+    background: rgba(255, 255, 255, 0.3);
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-left: 1rem;
+    opacity: 3;
+    
   }
 }
