@@ -1,4 +1,4 @@
-// navbar style 
+
 $black: black;
 $white: white;
 $faint-white: rgba(255, 255, 255, 0.3); 
@@ -7,6 +7,7 @@ $font-size: 7px;
 .navbar {
   background-color: $black;
   padding: 0.6rem;
+  height: 4rem;
 
  
   .nav-ul {
@@ -14,6 +15,7 @@ $font-size: 7px;
      list-style: none;
      justify-content: flex-end;
      align-items: center;
+     
   }
   .nav-ul li a{
    color:$white;
@@ -29,13 +31,12 @@ $font-size: 7px;
     width: 0.14rem;
     background: $faint-white;
     vertical-align: middle;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     margin-left: 1rem;
-    // opacity: 3;
+    
     
   }   
 }
-
 
 .cv-container {
   padding: 0.4rem;
@@ -43,9 +44,20 @@ $font-size: 7px;
   .download-btn {
     padding: 8px 15px;
     background-color: $white;
-    
     color: $black;
     border-radius: 9px;
     cursor: pointer;
   }
 }
+
+.nav-div {
+  
+  @media (max-width: 834px) {
+    display: none; 
+  
+  }
+  
+}
+
+
+

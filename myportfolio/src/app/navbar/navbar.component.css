@@ -1,6 +1,7 @@
 .navbar {
   background-color: black;
   padding: 0.6rem;
+  height: 4rem;
 }
 .navbar .nav-ul {
   display: flex;
@@ -21,7 +22,7 @@
   width: 0.14rem;
   background: rgba(255, 255, 255, 0.3);
   vertical-align: middle;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   margin-left: 1rem;
 }
 
@@ -35,4 +36,10 @@
   color: black;
   border-radius: 9px;
   cursor: pointer;
+}
+
+@media (max-width: 834px) {
+  .nav-div {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.component.css.map */
