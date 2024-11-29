@@ -1,31 +1,51 @@
 // navbar style 
-.navbar {
-  background-color: black;
-  padding: 1rem;
+$black: black;
+$white: white;
+$faint-white: rgba(255, 255, 255, 0.3); 
+$font-size: 7px;
 
-  .nav-div {
-    margin-left: 15rem;
-  }
+.navbar {
+  background-color: $black;
+  padding: 0.6rem;
+
+ 
   .nav-ul {
-    display: flex;
+     display: flex;
      list-style: none;
-     justify-content:center;
+     justify-content: flex-end;
+     align-items: center;
   }
   .nav-ul li a{
-   color: white;
+   color:$white;
    padding: 1rem;
+   font-size: 7px;
    text-decoration: none;
    font-size: 1.3rem;
+   
   }
   .vertical-line {
     display: inline-block;
     height: 1.7rem;
     width: 0.14rem;
-    background: rgba(255, 255, 255, 0.3);
+    background: $faint-white;
     vertical-align: middle;
     margin-bottom: 5px;
     margin-left: 1rem;
-    opacity: 3;
+    // opacity: 3;
     
+  }   
+}
+
+
+.cv-container {
+  padding: 0.4rem;
+  margin-left: 4rem;
+  .download-btn {
+    padding: 8px 15px;
+    background-color: $white;
+    
+    color: $black;
+    border-radius: 9px;
+    cursor: pointer;
   }
 }
