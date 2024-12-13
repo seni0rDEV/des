@@ -6,6 +6,11 @@ $font-size: 7px;
 
 .navbar {
   background-color: $white;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
   padding: 0.6rem;
   height: 4rem;
 
@@ -14,7 +19,7 @@ $font-size: 7px;
      display: flex;
     //  margin-right: 4rem;
      list-style: none;
-     justify-content: flex-end;
+     
      align-items: center;
      
   }
@@ -61,6 +66,3 @@ $font-size: 7px;
   }
   
 }
-
-
-

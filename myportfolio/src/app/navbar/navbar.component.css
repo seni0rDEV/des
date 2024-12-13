@@ -1,12 +1,15 @@
 .navbar {
   background-color: white;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   padding: 0.6rem;
   height: 4rem;
 }
 .navbar .nav-ul {
   display: flex;
   list-style: none;
-  justify-content: flex-end;
   align-items: center;
 }
 .navbar .nav-ul li a {
