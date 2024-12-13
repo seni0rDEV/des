@@ -1,5 +1,5 @@
 .navbar {
-  background-color: black;
+  background-color: white;
   padding: 0.6rem;
   height: 4rem;
 }
@@ -10,7 +10,7 @@
   align-items: center;
 }
 .navbar .nav-ul li a {
-  color: white;
+  color: black;
   padding: 1rem;
   font-size: 7px;
   text-decoration: none;
@@ -20,20 +20,24 @@
   display: inline-block;
   height: 1.7rem;
   width: 0.14rem;
-  background: rgba(255, 255, 255, 0.3);
+  background: black;
   vertical-align: middle;
   margin-bottom: 2px;
   margin-left: 1rem;
 }
 
+.moon-div {
+  margin-left: 1.4rem;
+}
+
 .cv-container {
   padding: 0.4rem;
-  margin-left: 4rem;
+  margin-left: 1.5rem;
 }
 .cv-container .download-btn {
   padding: 8px 15px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border-radius: 9px;
   cursor: pointer;
 }

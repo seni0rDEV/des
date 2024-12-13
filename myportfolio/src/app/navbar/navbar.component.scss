@@ -5,20 +5,21 @@ $faint-white: rgba(255, 255, 255, 0.3);
 $font-size: 7px;
 
 .navbar {
-  background-color: $black;
+  background-color: $white;
   padding: 0.6rem;
   height: 4rem;
 
- 
+  
   .nav-ul {
      display: flex;
+    //  margin-right: 4rem;
      list-style: none;
      justify-content: flex-end;
      align-items: center;
      
   }
   .nav-ul li a{
-   color:$white;
+   color:$black;
    padding: 1rem;
    font-size: 7px;
    text-decoration: none;
@@ -29,7 +30,7 @@ $font-size: 7px;
     display: inline-block;
     height: 1.7rem;
     width: 0.14rem;
-    background: $faint-white;
+    background: $black;
     vertical-align: middle;
     margin-bottom: 2px;
     margin-left: 1rem;
@@ -37,14 +38,16 @@ $font-size: 7px;
     
   }   
 }
-
+.moon-div {
+  margin-left: 1.4rem;
+}
 .cv-container {
   padding: 0.4rem;
-  margin-left: 4rem;
+  margin-left: 1.5rem;
   .download-btn {
     padding: 8px 15px;
-    background-color: $white;
-    color: $black;
+    background-color: $black;
+    color: $white;
     border-radius: 9px;
     cursor: pointer;
   }
