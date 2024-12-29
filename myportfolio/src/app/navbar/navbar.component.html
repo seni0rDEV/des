@@ -9,15 +9,16 @@
       </li>
       <li>
         <a href="">Testimonials</a>
-      </li>     
+      </li>
       <li>
         <a href="">Contact</a>
       </li>
       <li>
         <span class="vertical-line"></span>
       </li>
-      <div class="moon-div">
-        <span>
+      @if (darkmodeService.darkModeSignal() === 'dark') {
+      <!-- <div class="moon-div"> -->
+        <span (click)="toggleDarkmode()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -34,7 +35,10 @@
             />
           </svg>
         </span>
-        <span>
+      <!-- </div> -->
+      } @else {
+      <!-- <div class="moon-div"> -->
+        <span (click)="toggleDarkmode()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -48,6 +52,23 @@
             />
           </svg>
         </span>
+      <!-- </div> -->
+      }
+      <div class="moon-div">
+        <!-- <span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-brightness-high mt-2"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+            />
+          </svg>
+        </span> -->
       </div>
       <div class="cv-container">
         <span class="download-btn">Download Cv</span>
@@ -55,7 +76,7 @@
     </ul>
   </div>
 </nav>
-<section>
+<!-- <section>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sed magni
   tempora, voluptas nesciunt officiis sapiente nam porro quibusdam beatae esse
   recusandae, magnam quisquam autem ipsa? Nobis impedit amet itaque, labore iure
@@ -115,51 +136,8 @@
   molestiae, vitae iusto eos eius? Consequatur incidunt magnam exercitationem
   sequi, doloribus est expedita et unde! Hic quaerat voluptates eius aliquid
   veniam quos dolores eos magnam, nemo distinctio officia alias velit doloribus
-  perspiciatis saepe incidunt ad fugiat aspernatur corporis, sint quibusdam
-  recusandae obcaecati expedita. Nihil unde adipisci quos repellat dolor aperiam
-  expedita veritatis, architecto odio rem ipsum eos, neque saepe cumque, fuga
-  accusamus ipsa atque ad eaque. Totam, nemo adipisci? Quae dicta minima fuga
-  illo officiis nesciunt ad amet necessitatibus a, incidunt, ullam nostrum illum
-  cumque perspiciatis praesentium expedita officia accusantium nobis perferendis
-  consequatur voluptatem quisquam suscipit? Alias adipisci praesentium
-  laboriosam dolorem ullam id molestiae, velit exercitationem nobis tempore
-  fugit culpa nihil, nesciunt quo facere et ipsa eius? Provident accusamus eos
-  hic modi alias amet inventore aperiam voluptatum quisquam, laborum illum rem
-  natus iusto nemo quas odit eaque corporis, deserunt nostrum enim quo vel quia
-  architecto! Veritatis, ipsum reprehenderit? Tempora distinctio veniam nulla
-  modi sint consequuntur tenetur dolore, possimus, dolorem repellat ullam rem
-  delectus deserunt suscipit esse, similique placeat nesciunt quod expedita
-  temporibus veritatis dignissimos facere iusto? Consequuntur consectetur fuga
-  dolore beatae a, dicta magni aperiam culpa odit ipsam fugit quasi quaerat
-  repellat ab porro, ratione labore laudantium? Iste, molestiae nemo sed illo
-  officiis repellendus consequuntur officia molestias magnam ad id corrupti
-  nulla? Rem veniam placeat eaque nihil iste ullam! Natus corporis dolore,
-  commodi ea ratione error iste. Earum sed eius facere debitis hic provident
-  laboriosam incidunt magnam autem maiores quidem nam architecto aliquam, a
-  eveniet temporibus. Similique aliquid ex ducimus earum modi ratione! Magni
-  odio dignissimos consequatur nesciunt odit repellat in, architecto deleniti
-  sed, incidunt facere obcaecati neque quibusdam laborum. Perferendis dolorem
-  nesciunt officiis quis nisi ex vero, molestiae rem perspiciatis distinctio
-  totam hic, quam illo adipisci repellendus commodi. A natus voluptate mollitia
-  vel unde repudiandae commodi amet, illum labore pariatur fugit cum, est atque
-  omnis numquam ipsa. Ducimus provident quis repudiandae quo laudantium fugiat.
-  Beatae incidunt, repudiandae possimus ullam tenetur odit laboriosam veniam,
-  delectus optio voluptatibus, deleniti doloremque nemo sed quasi? Provident,
-  veniam nulla voluptas voluptate error sunt repellendus eaque, alias, amet
-  cupiditate incidunt accusantium ratione necessitatibus. Modi eos ipsam autem
-  aperiam libero suscipit ea quaerat, mollitia nostrum, consectetur eaque? Ea
-  vel repudiandae in asperiores mollitia expedita ullam nihil aperiam id
-  blanditiis ratione doloribus unde odit reiciendis recusandae eligendi quisquam
-  necessitatibus, praesentium aspernatur facere molestiae quasi fugit! Odio
-  obcaecati doloremque similique voluptates saepe hic nihil omnis, delectus
-  aspernatur recusandae eligendi itaque nesciunt consequuntur beatae
-  perspiciatis eveniet reprehenderit, ex animi? Quas assumenda aliquam commodi
-  nulla et autem natus asperiores quod nihil delectus quo nesciunt nisi
-  consequatur architecto deleniti distinctio vitae dignissimos earum, nemo,
-  enim, modi reprehenderit cum atque reiciendis? Molestiae exercitationem harum
-  quisquam soluta dignissimos quia aliquid, et aperiam expedita culpa? Hic,
-  soluta aliquid. Quas aliquid necessitatibus repellat commodi!
-</section>
+  perspiciatis saepe incidunt ad 
+</section> -->
 
 <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">

@@ -5,7 +5,7 @@ $faint-white: rgba(255, 255, 255, 0.3);
 $font-size: 7px;
 
 .navbar {
-  background-color: $white;
+  // background-color: $white;
   justify-content: flex-end;
   position: sticky;
   top: 0;
@@ -24,7 +24,7 @@ $font-size: 7px;
      
   }
   .nav-ul li a{
-   color:$black;
+  //  color:$black;
    padding: 1rem;
    font-size: 7px;
    text-decoration: none;
@@ -35,7 +35,7 @@ $font-size: 7px;
     display: inline-block;
     height: 1.7rem;
     width: 0.14rem;
-    background: $black;
+    // background: $black;
     vertical-align: middle;
     margin-bottom: 2px;
     margin-left: 1rem;
@@ -51,8 +51,8 @@ $font-size: 7px;
   margin-left: 1.5rem;
   .download-btn {
     padding: 8px 15px;
-    background-color: $black;
-    color: $white;
+    // background-color: $black;
+    // color: $white;
     border-radius: 9px;
     cursor: pointer;
   }

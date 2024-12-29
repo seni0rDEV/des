@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
+import { DarkModeService } from './services/dark-mode.service';
 // import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -10,5 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+
+  darkmodeService: DarkModeService = inject(DarkModeService);
   title = 'des';
 }
